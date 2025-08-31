@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Windows Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Desktop -->
+  <div id="desktop">
+
+    <!-- Icons -->
+    <div class="icon" data-window="homeWindow">
+      <img src="C:\Users\SAM\Desktop\portfolio website\home.jpeg" alt="Home">
+      <span>Home</span>
+    </div>
+
+    <div class="icon" data-window="aboutWindow">
+      <img src="about.png" alt="About">
+      <span>About</span>
+    </div>
+
+    <div class="icon" data-window="skillsWindow">
+      <img src="skill.png" alt="Skills">
+      <span>Skills</span>
+    </div>
+
+    <div class="icon" data-window="projectsWindow">
+      <img src="project.png" alt="Projects">
+      <span>Projects</span>
+    </div>
+
+    <div class="icon" data-window="contactWindow">
+      <img src="contact.jpeg" alt="Contact">
+      <span>Contact</span>
+    </div>
+
+    <!-- Windows -->
+    <div class="window" id="homeWindow">
+      <div class="window-header">
+        <span>Home</span>
+        <div class="window-controls">
+  <button class="minimize">_</button>
+  <button class="maximize">□</button>
+  <button class="close">X</button>
+</div>
+
+      </div>
+      <div class="window-body hero">
+        <img src="C:\Users\SAM\Desktop\portfolio website\me.jpg" alt="Prerna Shinde" class="hero-photo">
+        <h1>Shinde Prerna</h1>
+        <p>Student | Pursuing B.Tech in Information Technology 🌐 </p>
+      </div>
+    </div>
+
+    <div class="window" id="aboutWindow">
+      <div class="window-header">
+        <span>About</span>
+        <div class="window-controls">
+  <button class="minimize">_</button>
+  <button class="maximize">□</button>
+  <button class="close">X</button>
+</div>
+
+      </div>
+      <div class="window-body">
+        <h2>About Me</h2>
+        <p>Hi, I’m Prerna Shinde 👋
+🎓 Currently pursuing B.Tech in Information Technology after completing a Diploma in IT. I am passionate about learning, adapting to new technologies, and exploring how they can solve real-world problems.
+
+🚀 Curious, motivated, and eager to keep growing </p>
+      </div>
+    </div>
+
+    <div class="window" id="skillsWindow">
+      <div class="window-header">
+        <span>Skills</span>
+        <div class="window-controls">
+          <button class="minimize">_</button>
+          <button class="close">X</button>
+        </div>
+      </div>
+      <div class="window-body">
+        <h2>Skills</h2>
+        <div class="skill">
+          <span>HTML</span>
+          <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
+        </div>
+        <div class="skill">
+          <span>CSS</span>
+          <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+        </div>
+        <div class="skill">
+          <span>JavaScript</span>
+          <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+        </div>
+        <div class="skill">
+          <span>React</span>
+          <div class="progress"><div class="progress-bar" style="width: 1%"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="window" id="projectsWindow">
+      <div class="window-header">
+        <span>Projects</span>
+        <div class="window-controls">
+  <button class="minimize">_</button>
+  <button class="maximize">□</button>
+  <button class="close">X</button>
+</div>
+
+      </div>
+      <div class="window-body projects">
+        <a href="https://prerna-2007.github.io/calculator/" target="_blank"><img src="calsi.png" alt="Project 1">calculator</a>
+        <a href="https://prerna-2007.github.io/e-commerse/" target="_blank"><img src="logo1 - Copy.jpg" alt="Project 2">car showroom</a>
+      </div>
+    </div>
+
+    <div class="window" id="contactWindow">
+      <div class="window-header">
+        <span>Contact</span>
+        <div class="window-controls">
+  <button class="minimize">_</button>
+  <button class="maximize">□</button>
+  <button class="close">X</button>
+</div>
+
+      </div>
+      <div class="window-body">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Taskbar -->
+  <div id="taskbar">
+    <div id="start">Welcome on my portfolio -PRERNA</div>
+    <div id="task-icons"></div>
+    <div id="social">
+      <a href="https://www.linkedin.com/in/prerna-shinde-b4855824b/" target="_blank"><img src="images\linkedin.png" alt="LinkedIn"></a>
+      <a href="https://github.com/prerna-2007" target="_blank"><img src="images\github.jpeg" alt="GitHub"></a>
+      <button id="darkModeToggle"><img src="images\mode.png" alt=""></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
